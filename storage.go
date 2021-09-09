@@ -56,9 +56,9 @@ const (
 )
 
 type Options struct {
-	QueryTimeout time.Duration
-	LockTimeout  time.Duration
-	Database     Database
+	QueryTimeout time.Duration `json:"query_timeout,omitempty"`
+	LockTimeout  time.Duration `json:"lock_timeout,omitempty"`
+	Database     Database      `json:"database,omitempty"`
 }
 
 func (s *postgresStorage) ensureTableSetup() error {

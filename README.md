@@ -1,3 +1,6 @@
+# No longer maintained
+Please see [https://github.com/yroc92/postgres-storage](https://github.com/yroc92/postgres-storage)
+
 # certmagic-sqlstorage
 
 [![GoDoc](https://godoc.org/github.com/yroc92/certmagic-sqlstorage?status.svg)](https://godoc.org/github.com/yroc92/certmagic-sqlstorage)
